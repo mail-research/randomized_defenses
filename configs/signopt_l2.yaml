@@ -1,0 +1,6 @@
+p: '2'
+alpha: 0.2
+beta: 0.001
+svm: False
+momentum: 0
+k: 200

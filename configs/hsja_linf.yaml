@@ -1,0 +1,6 @@
+p: 'inf'
+gamma: 1.
+stepsize_search: geometric_progression
+EOT: 1
+max_num_evals: 10000
+init_num_evals: 100

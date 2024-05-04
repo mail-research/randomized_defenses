@@ -1,0 +1,4 @@
+pixel_attack: True
+freq_dims: 224
+order: rand 
+stride: 7

@@ -1,0 +1,4 @@
+pixel_attack: False
+freq_dims: 28
+order: strided 
+stride: 7

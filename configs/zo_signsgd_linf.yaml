@@ -1,0 +1,4 @@
+lp: linf
+n_queries_each: 15
+sigma: 0.1
+step_size: 0.01

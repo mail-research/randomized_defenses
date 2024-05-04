@@ -1,0 +1,5 @@
+lp: l2
+n_queries_each: 20
+sigma: 0.1
+step_size: 1
+M: 5
