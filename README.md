@@ -17,9 +17,10 @@ For example:
 
 Please cite the paper, as below, when using this repository:
 ```
-@article{quang2024understanding,
+@inproceedings{nguyen2024understanding,
   title={Understanding the Robustness of Randomized Feature Defense Against Query-Based Adversarial Attacks},
   author={Nguyen, Quang H and Lao, Yingjie and Pham, Tung and Wong, Kok-Seng and Doan, Khoa D},
+  booktitle={The Twelfth International Conference on Learning Representations},
   year={2024}
 }
 ```
