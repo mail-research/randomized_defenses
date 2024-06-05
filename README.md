@@ -6,6 +6,23 @@ Install a conda environment with the requirements in ```requirements.txt```.
 - ```attack```: implementation of attacks.
 - ```configs```: configurations of each attack.
 
+## Supported attacks
+We are currently implementing the following attacks. Our code is modified from the original implementation of each method and [BlackBoxBench](https://github.com/SCLBD/BlackboxBench). 
+- Score-based attacks:
+  - [Square attack](https://link.springer.com/chapter/10.1007/978-3-030-58592-1_29)
+  - [NES](https://proceedings.mlr.press/v80/ilyas18a.html)
+  - [SimBA](https://proceedings.mlr.press/v97/guo19a.html)
+  - [SignHunt](https://openreview.net/forum?id=SygW0TEFwH)
+  - [ZO-signSGD](https://openreview.net/forum?id=BJe-DsC5Fm)
+  - [Parsimonious attack](https://proceedings.mlr.press/v97/moon19a.html).
+- Decision-based attacks:
+  - [GeoDA](https://openaccess.thecvf.com/content_CVPR_2020/papers/Rahmati_GeoDA_A_Geometric_Framework_for_Black-Box_Adversarial_Attacks_CVPR_2020_paper.pdf)
+  - [HopSkipJumpAttack](https://ieeexplore.ieee.org/abstract/document/9152788/)
+  - [SignFlip](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123600273.pdf)
+  - [RayS](https://dl.acm.org/doi/abs/10.1145/3394486.3403225)
+  - [OPT attack](https://openreview.net/forum?id=rJlk6iRqKX)
+  - [SignOPT](https://openreview.net/forum?id=SklTQCNtvS).
+    
 ## Running the experiments
 Run the following command to perform the defense
 
